@@ -12,7 +12,12 @@ const config = defineConfig({
   plugins: [
     devtools(),
     tailwindcss(),
-    tanstackStart(),
+    tanstackStart({
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
+      }
+    }),
     viteReact(),
     markdownPlugin({ mode: [Mode.HTML] }),
   ],

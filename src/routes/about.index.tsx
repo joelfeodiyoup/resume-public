@@ -9,7 +9,7 @@ const content: {title: React.ReactNode, content: React.ReactNode}[] = [
     <p>I was born in Australia and grew up there. In 2023 I moved to Germany.</p>
   </>},
   {title: "interests", content: <>
-    <p>I try to have a lot of different interests in life</p>
+    <p></p>
     <ul>
       <li>cycling - I once spent 2-3 months cycling from Calais, France, to Vienna, Austria</li>
       <li>running - I once completed a 58km ultramarathon</li>
