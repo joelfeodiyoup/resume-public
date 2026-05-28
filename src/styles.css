@@ -1,5 +1,5 @@
 
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 * {
   box-sizing: border-box;
@@ -15,3 +15,44 @@ body {
   margin: 0;
 }
 
+
+
+:root {
+  --bg: #0c0c0c;
+  --fg: #cccccc;
+  --accent: #f1af7d;
+  --accent-highlight: color-mix(in srgb, var(--accent) 80%, white 50%);
+}
+
+::selection {
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Berkeley Mono', 'IBM Plex Mono', monospace;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.5;
+  max-width: 100ch;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2, h3 { 
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+}
+
+a {
+  color: var(--accent);
+  &:hover {
+    color: blue;
+    color: var(--accent-highlight);
+  }
+}
+code { color: var(--accent); }
