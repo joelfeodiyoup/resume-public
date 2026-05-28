@@ -8,6 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { plugin as markdownPlugin, Mode } from 'vite-plugin-markdown'
 
 const config = defineConfig({
+  base: '/resume-public/',
   resolve: { tsconfigPaths: true },
   plugins: [
     devtools(),
