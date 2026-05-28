@@ -1,4 +1,8 @@
 .header-layout {
+  margin-inline: -1rem;
+  margin-top: -1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
   position: sticky;
   top: 0;
   background-color: var(--bg-highlight);

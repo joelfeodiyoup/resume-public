@@ -21,7 +21,7 @@ body {
   --bg: #0c0c0c;
   --bg-highlight: color-mix(in srgb, var(--bg) 100%, white 10%);
   --fg: #cccccc;
-  --accent: #9b1111;
+  --accent: #119b70;
   --accent-highlight: color-mix(in srgb, var(--accent) 80%, white 50%);
 }
 
